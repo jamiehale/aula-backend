@@ -1,11 +1,11 @@
 import * as R from 'ramda';
-import { sanitizeMetadata } from '../sanitize';
+import { sanitizeMetadataForSongs } from '../sanitize';
 
 const getSongList = repository => (req, res) => {
   res.json(
     R.pipe(
       repository.filterSongs,
-      sanitizeMetadata
+      sanitizeMetadataForSongs
     )(req.query));
 };
 

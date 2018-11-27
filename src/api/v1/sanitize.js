@@ -10,4 +10,5 @@ const safeFields = [
   'tags'
 ];
 
-export const sanitizeMetadata = songs => songs.map(R.pick(safeFields));
+export const sanitizeMetadataForSong = song => R.pick(safeFields, song);
+export const sanitizeMetadataForSongs = songs => songs.map(sanitizeMetadataForSong);
