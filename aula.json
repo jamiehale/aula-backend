@@ -1,0 +1,54 @@
+{
+  "createdAt": "2018-11-26T11:11:11",
+  "updatedAt": "2018-11-26T12:12:12",
+  "songs": [
+    {
+      "id": 12,
+      "title": "Hundred Million",
+      "artist": "Treble Charger",
+      "format": "mp3",
+      "year": "1998",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "tags": [
+        "angry",
+        "loud"
+      ],
+      "songFile": "Treble Charger/Treble Charger - Hundred Million.mp3"
+    },
+    {
+      "id": 19,
+      "title": "Red",
+      "artist": "Treble Charger",
+      "format": "mp3",
+      "year": "1999",
+      "genres": [
+        "rock",
+        "mellow"
+      ],
+      "tags": [
+        "loud",
+        "sad"
+      ],
+      "songFile": "Treble Charger/Treble Charger - Red.mp3"
+    },
+    {
+      "id": 427,
+      "title": "I'm Not Okay",
+      "artist": "My Chemical Romance",
+      "format": "mp3",
+      "year": "2010",
+      "genres": [
+        "rock",
+        "emo"
+      ],
+      "tags": [
+        "loud",
+        "angry"
+      ],
+      "songFile": "My Chemical Romance/My Chemical Romance - I'm Not Okay.mp3"
+    }
+  ]
+}
