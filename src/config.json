@@ -1,0 +1,5 @@
+{
+	"port": 8080,
+	"musicDbFilename": "/Users/jamie/src/aula/backend/aula.json",
+	"musicRoot": "/Users/jamie/src/aula/music"
+}

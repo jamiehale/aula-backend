@@ -1,0 +1,56 @@
+{
+  "name": "aula-music-backend",
+  "version": "0.0.1",
+  "description": "Aula Music Player Back-End",
+  "main": "dist",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src\"",
+    "build": "babel src -D -d dist",
+    "start": "node dist",
+    "prestart": "yarn build",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiehale/aula-backend.git"
+  },
+  "author": "Jamie Hale <jamiesonhale@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "ramda": "^0.26.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-async-generator-functions": "^7.1.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "eslint": "*",
+    "nodemon": "^1.18.6"
+  },
+  "bugs": {
+    "url": "https://github.com/jamiehale/aula-backend/issues"
+  },
+  "homepage": "https://github.com/jamiehale/aula-backend/#readme"
+}
