@@ -8,12 +8,12 @@ This is the back-end of the Aula Music Player. It currently serves 3 endpoints:
 
 Returns a list of songs with their respective metadata. Filter via querystring using any of these fields:
 
-1. `title` (finds songs with titles _like_ the parameter)
-2. `artist` (finds songs with artists _like_ the parameter)
-3. `format` (exact match)
-4. `year` (exact match)
-5. `genre` (genre list includes parameter)
-6. `tag` (tag list includes parameter)
+  1. `title` (finds songs with titles _like_ the parameter)
+  2. `artist` (finds songs with artists _like_ the parameter)
+  3. `format` (exact match)
+  4. `year` (exact match)
+  5. `genre` (genre list includes parameter)
+  6. `tag` (tag list includes parameter)
 
     $> curl localhost:8080/api/v1/songs?artist=led%20zeppelin
     $> curl "localhost:8080/api/v1/songs?artist=lef%20zeppelin&title=dazed"
